@@ -1,0 +1,41 @@
+.button {
+  font-size: var(--font-size-m);
+  border: none;
+  padding: 1em 1.5em;
+  line-height: 1em;
+  font-weight: var(--font-weight-l);
+  letter-spacing: -0.0133em;
+  border-radius: 1.5em;
+  transition: background-color var(--transition-time);
+
+  // not using css variable for rounding to keep responsive independent component
+  // border-radius: var(--rounding-m);
+
+  &--primary {
+    background-color: var(--color-primary-500);
+
+    &:hover {
+      background-color: var(--color-primary-700);
+    }
+    &:active {
+      background-color: var(--color-primary-900);
+    }
+  }
+
+  &--secondary {
+    background-color: var(--white);
+
+    &:hover {
+      background-color: var(--color-button-secondary-hover);
+    }
+    &:active {
+      background-color: var(--color-button-secondary-active);
+    }
+  }
+
+  & &__play-icon {
+    height: 0.75em;
+    width: 0.75em;
+    margin-right: 0.5em;
+  }
+}

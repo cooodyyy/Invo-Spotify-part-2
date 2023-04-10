@@ -4,6 +4,11 @@
 
 :root {
   // colors
+  --white: #fff;
+
+  --color-button-secondary-hover: #f0f0f0;
+  --color-button-secondary-active: #d1d1d1;
+
   --color-primary-100: #d1f2d4;
   --color-primary-200: #b2eab7;
   --color-primary-300: #93e19a;
@@ -37,4 +42,15 @@
   // roundings
   --rounding-m: 24px;
   --rounding-s: 16px;
+
+  // fonts
+  --font-size-l: 24px;
+  --font-size-m: 16px;
+  --font-size-s: 16px;
+
+  --font-weight-l: 700;
+  --font-weight-m: 400;
+
+  // transitions
+  --transition-time: 0.2s;
 }

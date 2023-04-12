@@ -6,6 +6,13 @@
   // colors
   --white: #fff;
 
+  --color-border-premium-card: rgba(255, 255, 255, 0.2);
+  --gradient-premium-card: linear-gradient(
+    90.79deg,
+    #65d46e -8.89%,
+    #0b280d 100%
+  );
+
   --color-button-secondary-hover: #f0f0f0;
   --color-button-secondary-active: #d1d1d1;
 
@@ -43,6 +50,7 @@
   --rounding-l: 2em;
   --rounding-m: 1.5em;
   --rounding-s: 1em;
+  --rounding-xs: 0.75em;
 
   // fonts
   --font-size-l: 24px;
@@ -51,6 +59,10 @@
 
   --font-weight-l: 700;
   --font-weight-m: 400;
+
+  @media (max-width: 670px) {
+    --font-size-s: 14px;
+  }
 
   // transitions
   --transition-time: 0.2s;

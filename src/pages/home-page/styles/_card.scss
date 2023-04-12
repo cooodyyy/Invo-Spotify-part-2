@@ -6,17 +6,17 @@
 
   border-radius: var(--rounding-m);
 
-& &__image-title-container {
+  & &__image-title-container {
     height: 228px;
-}
+  }
 
-& &__description-button-container {
+  & &__description-button-container {
     display: flex;
     flex-direction: column;
     align-items: baseline;
     justify-content: space-between;
     min-height: 138px;
-}
+  }
 
   & &__image-container {
     --image-container-size: 8.75em;
@@ -46,6 +46,5 @@
     font-weight: var(--font-weight-m);
     line-height: 1.375em;
     letter-spacing: -0.01em;
-    
   }
 }

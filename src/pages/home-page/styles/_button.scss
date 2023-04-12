@@ -5,12 +5,9 @@
   line-height: 1em;
   font-weight: var(--font-weight-l);
   letter-spacing: -0.0133em;
-  border-radius: 1.5em;
+  border-radius: var(--rounding-m);
   transition: background-color var(--transition-time);
   cursor: pointer;
-
-  // not using css variable for rounding to keep responsive independent component
-  // border-radius: var(--rounding-m);
 
   &--primary {
     background-color: var(--color-primary-500);

@@ -1,0 +1,35 @@
+.card {
+  background-color: var(--color-content-500);
+  padding: 1.5em;
+  max-width: 22em;
+
+  border-radius: var(--rounding-m);
+
+  & &__image-container {
+    --image-container-size: 8.75em;
+
+    width: var(--image-container-size);
+    height: var(--image-container-size);
+    border-radius: var(--rounding-s);
+    overflow: hidden;
+  }
+
+  & &__title {
+    color: var(--white);
+
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-l);
+    line-height: 1em;
+    letter-spacing: -0.01em;
+  }
+
+  & &__description {
+    color: var(--white);
+    opacity: 0.5;
+
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-m);
+    line-height: 1.375em;
+    letter-spacing: -0.01em;
+  }
+}

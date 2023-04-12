@@ -1,9 +1,10 @@
 /// Homepage Styles File
 /// Here we import all the Styles files we need for our Homepage.
-/// 
-/// 
+///
+///
 
 @import "_button.scss";
+@import "_card.scss";
 
 #home-page {
   display: flex;
@@ -11,4 +12,9 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  gap: 1em;
 }

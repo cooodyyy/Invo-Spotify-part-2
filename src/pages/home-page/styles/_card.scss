@@ -78,9 +78,17 @@
     font-weight: var(--font-weight-m);
     line-height: 1.375em;
     letter-spacing: -0.01em;
+    top: 252px;
+
     position: absolute;
     width: 304px;
-    top: 252px;
+    height: 66px;
+    overflow: hidden;
+    margin-block: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 
     @media (max-width: 1186px) {
       position: static;

@@ -9,6 +9,12 @@
   transition: background-color var(--transition-time);
   cursor: pointer;
 
+  &--first {
+    @media (max-width: 670px) {
+      margin-top: 35px !important;
+    }
+  }
+
   &--primary {
     background-color: var(--color-primary-500);
     position: absolute;

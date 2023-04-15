@@ -62,11 +62,11 @@
     letter-spacing: -0.01em;
 
     margin-top: 1em;
-    width: 8.3em;
+    max-width: 8.3em;
 
     @media (max-width: 1186px) {
       margin-top: 0;
-      width: 11.08em;
+      max-width: 11.08em;
     }
   }
 
@@ -81,7 +81,7 @@
     top: 252px;
 
     position: absolute;
-    width: 304px;
+    max-width: 304px;
     height: 66px;
     overflow: hidden;
     margin-block: auto;
@@ -93,11 +93,12 @@
     @media (max-width: 1186px) {
       position: static;
       margin-top: 1em;
-      width: 407px;
+      max-width: 407px;
     }
 
     @media (max-width: 670px) {
       max-width: 254px;
+      height: auto;
     }
   }
 }
